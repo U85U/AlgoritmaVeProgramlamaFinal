@@ -1,0 +1,27 @@
+Xurvivor yarışmasında büyük ödülü kazanmak için son parkurda yarışmakta olan bir karakter simule 
+etmelisiniz.
+ 
+Parkur; başlangıcından bitişine kadar içersinde engeller barındırmaktadır.(MinEngel:2 ~ MaxEngel:5)
+Yarışma hakkında bilgiler;
+
+	1-Parkur uzunluğu program tarafından rastgele belirlenecek ve 50-100 metre arasında olacaktır.(50 
+	ve 100 dahil)
+
+	2-YarışmacınınbaşlangıçYaşam Puanı(Health Point (HP)) 100'dür. 
+
+	3-Engel sayısı(Min:2 Max:5)ve engelin çıkacağımetre(Min:5 ~Max: ParkurBitisMetresi)tamamen 
+	rastgele olarak program tarafından belirlenecektir.
+
+	4-Engelle karşılaşan yarışmacının; Yaşam puanı(HP) ile engelle karşılaştığı metre aralarında asal ise
+	Yaşam Puanı engelle karşılaşılanmetre kadar düşecektir. (Yaşam Puanı –=KarşılaşılanMetre)
+	(HP ve engelin çıktığı metrenin aralarında asallık kontrolünün fonksiyon ile yapılması zorunludur)
+
+	5-Yarışmacı son engeli de başarılı bir şekilde geçerse (HP>0)yarışmayı başarıyla bitirip büyük ödülü 
+	alacaktır.Engelden sonra Yaşam Puanı(HP<=0)kalmaz ise oyun bitecek ve elenecektir.
+
+	6-Örnek senaryolarda gösterildiği gibiher bir adım “log.txt”dosyasında kayıt altına alınacaktır.
+
+	7-Kullanıcıdan herhangi bir veri girişi olmayacaktır.Menü yapısı kullanılmayacaktır.
+
+	8-Program tasarımında derste anlatılan yapıların (struct,  pointer,  dinamik  bellek  v.b.)kullanımı 
+	önemlidir.Konu sınırlaması yoktur, bildiğiniz her şeyi çözüm için kullabilirsiniz.
